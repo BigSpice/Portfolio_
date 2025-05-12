@@ -167,72 +167,120 @@ const GallerySection = () => {
                                             <li>
                                                 <a href="">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA0OTI3Nw&ixlib=rb-1.2.1&q=80&w=400' alt='Volcano and lava field against a stormy sky' />
-                                                        <figcaption>Mountains and volcanos</figcaption>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Thumbnail_F/A3.png?raw=true' alt='Glass_house' />
+                                                        <figcaption>Floating Fortress</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://images.unsplash.com/photo-1633621533308-8760aefb5521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjAyMQ&ixlib=rb-1.2.1&q=80&w=400' alt='Guy on a bike ok a wooden bridge with a forest backdrop' />
-                                                        <figcaption>Adventure getaways</figcaption>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Thumbnail_F/A5.png?raw=true' alt='Datsun' />
+                                                        <figcaption>Datsun</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://images.unsplash.com/photo-1633635146842-12d386e64058?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person standing alone in a misty forest' />
-                                                        <figcaption>Forest escapes</figcaption>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Thumbnail_F/Limerance2.png' alt='Limerance' />
+                                                        <figcaption>Limerance</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://images.unsplash.com/photo-1568444438385-ece31a33ce78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person hiking on a trail through mountains while taking a photo with phone' />
-                                                        <figcaption>Hiking trails</figcaption>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Thumbnail_F/OUIAOU.png' alt='OUIAOU' />
+                                                        <figcaption>OUIAOU</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://images.unsplash.com/photo-1633515257379-5fda985bd57a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Street scene with person walking and others on motorbikes, all wearing masks' />
-                                                        <figcaption>Street scenes</figcaption>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Thumbnail_F/Reaching_Not_Fleeing.png' alt='Reaching_Not_Fleeing m' />
+                                                        <figcaption>Reaching Not Fleeing</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses' />
-                                                        <figcaption>Trending</figcaption>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Thumbnail_F/Reaching_Not_FleeingA7.png' alt='Reaching_Not_Fleeing' />
+                                                        <figcaption>Reaching Not Fleeing</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses' />
-                                                        <figcaption>Trending</figcaption>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030023.png' alt='Colbys' />
+                                                        <figcaption>Colby's</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses' />
-                                                        <figcaption>Trending</figcaption>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030025.png' alt='Horse' />
+                                                        <figcaption>Porshe Horse</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses' />
-                                                        <figcaption>Trending</figcaption>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030039.png' alt='Asthetic' />
+                                                        <figcaption>SnapShot</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <figure>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030032.png' alt='Porshe' />
+                                                        <figcaption>Porshe Red</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <figure>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030068.png' alt='Staring Carbon' />
+                                                        <figcaption>Staring Carbon</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <figure>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030159.png' alt='FullMoon Auto' />
+                                                        <figcaption>FullMoon Auto</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <figure>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030187.png' alt='Lincoln' />
+                                                        <figcaption>Lincoln</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <figure>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/waxing-1030217.png' alt='WAX' />
+                                                        <figcaption>WAX</figcaption>
+                                                    </figure>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <figure>
+                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030211.png' alt='Huzz_Mobile' />
+                                                        <figcaption>Season Opener Fun</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
