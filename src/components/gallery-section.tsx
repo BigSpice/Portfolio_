@@ -1,16 +1,11 @@
 "use client";
 
-import { socialLinks } from "@/constants";
-import { ArrowRight, ExternalLink } from "lucide-react";
 import { motion } from "motion/react";
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { ShaderGradientCanvas } from "@shadergradient/react"
-import { ShaderGradient } from "@shadergradient/react"
-import PhotoSwipeLightbox from "photoswipe/lightbox";
 import "photoswipe/style.css";
 import "../app/edit.css";
-import { ArrowUpRight, Building2, Calendar, ChevronUp } from "lucide-react";
+import {ChevronUp } from "lucide-react";
+//import { LazyLoadImage } from "react-lazy-load";
 
 const GallerySection = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -165,122 +160,122 @@ const GallerySection = () => {
                                         <div className="bod light_cs dark:light_cs ">
                                         <ul className="uls">
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/A3.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Thumbnail_F/A3.png?raw=true' alt='Glass_house' />
+                                                        <img className="imgz" loading="lazy" src='https://imgur.com/TniCVdI.png' alt='Glass_house' />
                                                         <figcaption>Floating Fortress</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/A5.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Thumbnail_F/A5.png?raw=true' alt='Datsun' />
+                                                        <img className="imgz" loading="lazy"  src='https://i.imgur.com/5E9MmAQ.png' alt='Datsun' />
                                                         <figcaption>Datsun</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Limerance2.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Thumbnail_F/Limerance2.png' alt='Limerance' />
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/LWsE91H.png' alt='Limerance' />
                                                         <figcaption>Limerance</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/OUIAOU.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Thumbnail_F/OUIAOU.png' alt='OUIAOU' />
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/0RfOOs2.png' alt='OUIAOU' />
                                                         <figcaption>OUIAOU</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Reaching_Not_Fleeing.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Thumbnail_F/Reaching_Not_Fleeing.png' alt='Reaching_Not_Fleeing m' />
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/l1MHdpA.png' alt='Reaching_Not_Fleeing m' />
                                                         <figcaption>Reaching Not Fleeing</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Reaching_Not_FleeingA7.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Thumbnail_F/Reaching_Not_FleeingA7.png' alt='Reaching_Not_Fleeing' />
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/V8MifOz.png' alt='Reaching_Not_Fleeing' />
                                                         <figcaption>Reaching Not Fleeing</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030024.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030023.png' alt='Colbys' />
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/iLXDVrO.png' alt='Colbys' />
                                                         <figcaption>Colby's</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030025.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030025.png' alt='Horse' />
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/wDGVZrG.png' alt='Horse' />
                                                         <figcaption>Porshe Horse</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030039.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030039.png' alt='Asthetic' />
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/yQkCly8.png' alt='Asthetic' />
                                                         <figcaption>SnapShot</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030032.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030032.png' alt='Porshe' />
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/KQ0I2Cl.png' alt='Porshe' />
                                                         <figcaption>Porshe Red</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030068.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030068.png' alt='Staring Carbon' />
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/DdPVS4S.png' alt='Staring Carbon' />
                                                         <figcaption>Staring Carbon</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030159.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030159.png' alt='FullMoon Auto' />
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/th2wBbe.png' alt='FullMoon Auto' />
                                                         <figcaption>FullMoon Auto</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030187.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030187.png' alt='Lincoln' />
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/jo1rUZF.png' alt='Lincoln' />
                                                         <figcaption>Lincoln</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/waxing-1030217.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/waxing-1030217.png' alt='WAX' />
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/5dxmTpC.png' alt='WAX' />
                                                         <figcaption>WAX</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030001.png">
                                                     <figure>
-                                                        <img className="imgz" loading="lazy" src='https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/Thumbnail_F/TweLVeSixTy-1030211.png' alt='Huzz_Mobile' />
-                                                        <figcaption>Season Opener Fun</figcaption>
+                                                        <img className="imgz" loading="lazy" src='https://i.imgur.com/9MwfOKr.png' alt='Hawk' />
+                                                        <figcaption>Hawk</figcaption>
                                                     </figure>
                                                 </a>
                                             </li>

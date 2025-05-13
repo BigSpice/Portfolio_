@@ -31,7 +31,7 @@ export const projects = [
     description:
       "Contributed to the Source code and Created the VTOL launcher",
     image:
-      "https://raw.githubusercontent.com/R2NorthstarTools/VTOL/refs/heads/master/VTOL_2.0.0/Resources/Backgrounds/Backgrounds_Home_Page/Wallpaper(37).jpg",
+      "https://i.imgur.com/qmMj1Wp.jpeg",
     features: [
       "Manage installed Northstar mods",
       "Easily install, update and launch Northstar",
@@ -51,7 +51,7 @@ export const projects = [
     description:
       "Behavioral 3d printed apparatus for quantification of mice behavior",
     image:
-    "https://wallpapercave.com/wp/wp5221778.jpg",
+    "https://i.imgur.com/NGnKQ2u.jpeg",
     features: [
       "Enables fully automated single pellet reach training within the home cage environment",
     "Automatically adjusts training based on each mouse’s performance",

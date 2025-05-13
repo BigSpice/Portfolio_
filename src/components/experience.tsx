@@ -54,7 +54,7 @@ const experiences: Experience[] = [
   {
     title: "Lab Research Engineer - Stroke and Recovery",
     company: "University of Ottawa",
-    companyUrl: "-",
+    companyUrl: "https://www.uottawa.ca/research-innovation/brain/research/stroke",
     period: "12/2023 – present",
     description:
       "Ottawa, Canada",
@@ -84,7 +84,7 @@ const experiences: Experience[] = [
   {
     title: "Field Technician",
     company: "IBM",
-    companyUrl: "-",
+    companyUrl: "https://www.ibm.com",
     period: "11/2022 – 08/2023",
     description:
       "Ottawa, Canada",
@@ -109,7 +109,7 @@ const experiences: Experience[] = [
   {
     title: "Hardware characterization",
     company: "Ciena",
-    companyUrl: "-",
+    companyUrl: "https://www.ciena.com/",
     period: "12/2023 – present",
     description:
       "Ottawa, Canada",
@@ -139,7 +139,7 @@ const experiences: Experience[] = [
   {
     title: "Research Assistanty",
     company: "University of Ottawa",
-    companyUrl: "-",
+    companyUrl: "https://www.uottawa.ca/research-innovation/brain/research/stroke",
     period: "05/2021 – 09/2021",
     description:
       "Ottawa, Canada",
@@ -169,7 +169,7 @@ const experiences: Experience[] = [
   {
     title: "Hardware Software Engineer",
     company: "Ciena",
-    companyUrl: "-",
+    companyUrl: "https://www.ciena.com/",
     period: "01/2021 – 05/2021",
     description:
       "Ottawa, Canada",
