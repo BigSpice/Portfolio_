@@ -35,13 +35,7 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Jordan Kaweesa | Portfolio",
-    description:
-      "Automation Engineer with a long background in Computer Systems",
-    images: ["https://"],
-  },
+ 
   robots: "index, follow",
 };
 

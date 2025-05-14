@@ -165,9 +165,5 @@ export const socialLinks = [
     href: "https://www.linkedin.com/in/jordan-k-m/",
     icon: <LinkedinSVG />,
   },
-  {
-    name: "Twitter",
-    href: "https://x.com/",
-    icon: <XSVG />,
-  },
+
 ];
