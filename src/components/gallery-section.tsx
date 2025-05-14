@@ -125,7 +125,7 @@ const GallerySection = () => {
               <span className="block">Gallery</span>
             </h2>
             <p className="text-base max-w-lg text-neutral-600 dark:text-neutral-400">
-            Images I’ve created, from real life, to rendered space.
+           A Selection of Images I’ve created, from real life, to rendered space.
             </p>
           </motion.div>
         </div>
@@ -160,7 +160,7 @@ const GallerySection = () => {
                                         <div className="bod light_cs dark:light_cs ">
                                         <ul className="uls">
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/A3.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/CG/A3.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://imgur.com/TniCVdI.png' alt='Glass_house' />
                                                         <figcaption>Floating Fortress</figcaption>
@@ -168,7 +168,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/A5.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/CG/A5.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy"  src='https://i.imgur.com/5E9MmAQ.png' alt='Datsun' />
                                                         <figcaption>Datsun</figcaption>
@@ -176,7 +176,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Limerance2.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/CG/Limerance2.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/LWsE91H.png' alt='Limerance' />
                                                         <figcaption>Limerance</figcaption>
@@ -184,7 +184,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/OUIAOU.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/CG/OUIAOU.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/0RfOOs2.png' alt='OUIAOU' />
                                                         <figcaption>OUIAOU</figcaption>
@@ -192,7 +192,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Reaching_Not_Fleeing.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/CG/Reaching_Not_Fleeing.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/l1MHdpA.png' alt='Reaching_Not_Fleeing m' />
                                                         <figcaption>Reaching Not Fleeing</figcaption>
@@ -200,7 +200,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/CG/Reaching_Not_FleeingA7.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/CG/Reaching_Not_FleeingA7.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/V8MifOz.png' alt='Reaching_Not_Fleeing' />
                                                         <figcaption>Reaching Not Fleeing</figcaption>
@@ -208,7 +208,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030024.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030024.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/iLXDVrO.png' alt='Colbys' />
                                                         <figcaption>Colby's</figcaption>
@@ -216,7 +216,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030025.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030025.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/wDGVZrG.png' alt='Horse' />
                                                         <figcaption>Porshe Horse</figcaption>
@@ -224,7 +224,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030039.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030039.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/yQkCly8.png' alt='Asthetic' />
                                                         <figcaption>SnapShot</figcaption>
@@ -232,7 +232,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030032.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030032.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/KQ0I2Cl.png' alt='Porshe' />
                                                         <figcaption>Porshe Red</figcaption>
@@ -240,7 +240,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030068.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030068.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/DdPVS4S.png' alt='Staring Carbon' />
                                                         <figcaption>Staring Carbon</figcaption>
@@ -248,7 +248,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030159.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030159.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/th2wBbe.png' alt='FullMoon Auto' />
                                                         <figcaption>FullMoon Auto</figcaption>
@@ -256,7 +256,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030187.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030187.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/jo1rUZF.png' alt='Lincoln' />
                                                         <figcaption>Lincoln</figcaption>
@@ -264,7 +264,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/waxing-1030217.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/RLS/SN_OPN/waxing-1030217.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/5dxmTpC.png' alt='WAX' />
                                                         <figcaption>WAX</figcaption>
@@ -272,7 +272,7 @@ const GallerySection = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/BigSpice/Portfolio_/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030001.png">
+                                                <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/RLS/SN_OPN/TweLVeSixTy-1030001.png">
                                                     <figure>
                                                         <img className="imgz" loading="lazy" src='https://i.imgur.com/9MwfOKr.png' alt='Hawk' />
                                                         <figcaption>Hawk</figcaption>
