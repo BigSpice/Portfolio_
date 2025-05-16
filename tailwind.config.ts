@@ -139,6 +139,11 @@ export default {
           },
         },
       },
+     fontSize: {
+                'culg': '7.3rem',
+              
+            },
+    
     },
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
