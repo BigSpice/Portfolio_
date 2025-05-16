@@ -13,7 +13,7 @@ export default function ContactSection() {
   const isDark = theme === "dark";
   const [isInView, setIsInView] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
-
+  
   // Form state
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -339,7 +339,10 @@ export default function ContactSection() {
                           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                           <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                         </span>
+                        <div>
                         Available for new projects and Job Offers
+
+                        </div>
                       </div>
                     </div>
                   </div>

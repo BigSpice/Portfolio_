@@ -116,7 +116,7 @@ const experiences: Experience[] = [
     achievements: [
       "Developed and enhanced the automation framework by implementing new features using C#, Python,Ruby and Java, improving test coverage.",
       "Redesigned encryption for custom scripts to enhance security and improve hash verification reliability (SHA-3,BLAKE-3) .",
-      "•Created custom drivers and iterfaces using QNX for closed source modification.", 
+      "Created custom drivers and iterfaces using QNX for closed source modification.", 
       "Designed and implemented a new Test Automation Suite to a modern Java UI custom created for the new system.",
       "Refactored and optimized existing testing software methods using Visual Studio C#, Python and Ruby.",
      
@@ -146,7 +146,7 @@ const experiences: Experience[] = [
     achievements: [
       "Developed and optimized an automated testing environment for stroke research and treatment in collaboration with a research team.",
       "Designed and implemented Python scripts to automate testing procedures, ensuring efficiency and safety.",
-      "•Enhanced the testing environment using CAD and software to optimize conditions and procedures.",
+      "Enhanced the testing environment using CAD and software to optimize conditions and procedures.",
       "Utilized NVIDIA Jetson, Arduino, OpenCV, and socket applications for real-time tracking and recognition of test elements.",
       "Implemented real-time data collection methods to analyze test results and drive improvements.",
       "Provided technical support, troubleshooting issues, and maintaining up-to-date documentation for future enhancements.",
