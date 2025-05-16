@@ -158,7 +158,7 @@ const GallerySection = () => {
                                     
                                     <div className="bod_parent p-2  border border-neutral-200 bg-neutral-100dark:bg-neutral-900 rounded-lg shadow-md border border-neutral-200 dark:border-neutral-800 ">
                                         <div className="bod light_cs dark:light_cs ">
-                                        <ul className="ul">
+                                        <ul className="uls">
                                             <li>
                                                 <a href="https://github.com/BigSpice/MISC_STORE/blob/main/Images/CG/A3.png">
                                                     <figure>
