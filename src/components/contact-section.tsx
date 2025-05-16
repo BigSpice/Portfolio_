@@ -49,7 +49,7 @@ export default function ContactSection() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-
+    
     try {
       const response = await fetch("/api/send", {
         method: "POST",
