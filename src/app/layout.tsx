@@ -6,6 +6,7 @@ import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./edit.css";
 import "./new.css";
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Geist_Mono({ subsets: ["latin"], preload: true });
 
