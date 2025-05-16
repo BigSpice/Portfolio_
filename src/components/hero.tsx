@@ -130,7 +130,7 @@ const HeroSection = () => {
                   perspective: "1000px",
                 }}
               >
-                <div className="relative text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-extralight tracking-tighter">
+                <div className="relative text-4xl sm:text-7xl md:text-8xl lg:text-9xl font-extralight tracking-tighter">
                   <span className="inline-block text-neutral-900 dark:text-neutral-100">
                     {nameLetters.map((letter, i) => (
                       <motion.span

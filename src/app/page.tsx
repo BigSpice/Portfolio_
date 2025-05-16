@@ -8,9 +8,7 @@ import HeroSection from "../components/hero";
 import TechStack from "../components/tech-stack";
 import GallerySection from "../components/gallery-section";
 import React from "react";
-import AnimatedCursor from "react-animated-cursor"
-import { ShaderGradientCanvas } from "@shadergradient/react"
-import { ShaderGradient } from "@shadergradient/react"
+
 
 export default function Page() {
   const { theme } = useTheme();
