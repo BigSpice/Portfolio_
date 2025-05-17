@@ -282,6 +282,7 @@ const GallerySection = () => {
                                             
                                         </ul>
                                         </div>
+                                        <div></div>
                                     </div>
                                     {/* Timeline direction indicator */}
           <motion.div

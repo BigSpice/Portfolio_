@@ -645,7 +645,7 @@ function ExperienceCard({
             isEven ? "md:col-start-7" : "md:col-start-2"
           } md:row-start-1 relative z-10 order-2`}
         >
-          <div className="mt-0 md:mt-[100px] p-6 md:p-8 bg-white/90 dark:bg-neutral-900/90 backdrop-blur-md shadow-lg">
+          <div className="mt-0 rounded-lg md:mt-[100px] p-6 md:p-8 bg-white/90 dark:bg-neutral-900/90 backdrop-blur-md shadow-lg">
             <p className="mb-8 text-sm md:text-base font-light text-neutral-600 dark:text-neutral-400">
               {experience.description}
             </p>

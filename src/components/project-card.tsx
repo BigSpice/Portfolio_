@@ -3,7 +3,6 @@ import { projects } from "@/constants";
 import { ArrowUpRight } from "lucide-react";
 import { motion } from "motion/react";
 import { useTheme } from "next-themes";
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 

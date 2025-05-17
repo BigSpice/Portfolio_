@@ -7,14 +7,21 @@ import { ArrowUpRight, AtSign, Loader2, Send } from "lucide-react";
 import { motion } from "motion/react";
 import { useTheme } from "next-themes";
 import React, { useEffect, useRef, useState } from "react";
+import { FormEvent } from "react";
 
 export default function ContactSection() {
   const { theme } = useTheme();
   const isDark = theme === "dark";
   const [isInView, setIsInView] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
-  
-  // Form state
+  const subject = "Portfolio Lead"
+  const EMAIL_I_USE = process.env.EMAIL_I_USE
+
+//new stuff 
+
+  const [wasEmailSent, setEmailWasSent] = useState(false);
+
+// Form state
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -23,11 +30,70 @@ export default function ContactSection() {
     "idle" | "success" | "error"
   >("idle");
 
+  const currentDate = new Date().toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
+// Function to handle the form submission
+  async function handleSubmitEmail(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+     setIsSubmitting(true);
+
+    if (!email) return; // If no email is provided, exit the function
+ 
+    // Optimistic UI concept
+    // See https://javascript.plainenglish.io/what-is-optimistic-ui-656b9d6e187c
+    setEmailWasSent(true); 
+ 
+    try {
+      // Make a POST request to the email endpoint
+      // Remember that this should correspond to your folder structure
+      // My route.ts is at /app/api/subscribe/email/route.ts 
+      // So Next.js exposes the endpoint at the URL below
+     const response =  await fetch('/api/send', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+      
+        body: JSON.stringify({name:name, custemail: email,body:message }),
+      });
+
+             if (response.ok) {
+        setSubmitStatus("success");
+        setName("");
+        setEmail("");
+        setMessage("");
+      } else {
+        setSubmitStatus("error");
+      }
+
+    } catch (error) {
+      setSubmitStatus("error");
+
+      console.error('Error fetching email:', error);
+    }finally {
+      setIsSubmitting(false);
+
+      // Reset status after 5 seconds
+      setTimeout(() => {
+        setSubmitStatus("idle");
+      }, 5000);
+    }
+  }
+
+
+
+
+
+
+  
+
   // Track when section is in view
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
+        if (entry.isIntersecting) { 
           setIsInView(true);
         }
       },
@@ -45,39 +111,6 @@ export default function ContactSection() {
     };
   }, []);
 
-  // Handle form submission
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    try {
-      const response = await fetch("/api/send", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ name, email, message }),
-      });
-
-      if (response.ok) {
-        setSubmitStatus("success");
-        setName("");
-        setEmail("");
-        setMessage("");
-      } else {
-        setSubmitStatus("error");
-      }
-    } catch (error) {
-      setSubmitStatus("error");
-    } finally {
-      setIsSubmitting(false);
-
-      // Reset status after 5 seconds
-      setTimeout(() => {
-        setSubmitStatus("idle");
-      }, 5000);
-    }
-  };
 
   return (
     <section
@@ -163,12 +196,13 @@ export default function ContactSection() {
               animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 30 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
+              
               <div
                 className={`p-6 md:p-10 ${
                   isDark ? "bg-neutral-900/50" : "bg-white/50"
                 } backdrop-blur-sm relative`}
               >
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form onSubmit={handleSubmitEmail} className="space-y-6"> {/*changed from handleSubmit*/}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <label
@@ -191,7 +225,7 @@ export default function ContactSection() {
                         htmlFor="email"
                         className="text-xs uppercase tracking-wider text-neutral-500"
                       >
-                        Email
+                       Your  Email
                       </label>
                       <Input
                         id="email"
@@ -280,7 +314,10 @@ export default function ContactSection() {
                 {/* Decorative corner elements */}
                 {/* <div className="absolute -bottom-3 -left-3 w-12 h-12 md:w-16 md:h-16 border-l-2 border-b-2 border-neutral-400 opacity-40" /> */}
                 <div className="absolute -top-3 -right-3 w-12 h-12 md:w-16 md:h-16 border-r-2 border-t-2 border-neutral-400 opacity-40" />
+                    <p className="margin-t text-sm text-xs">© {new Date().getFullYear()} Jordan Kaweesa. All Rights Reserved.</p>
+
               </div>
+
             </motion.div>
 
             {/* Contact Information */}

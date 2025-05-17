@@ -25,6 +25,47 @@ export const navbarLinks = [
   },
 ];
 
+export const tempEmailDomains = [
+  "tempmail.com",
+  "temp-mail.org",
+  "tempm.com",
+  "tempmail.net",
+  "tmpmail.org",
+  "guerrillamail.com",
+  "guerrillamail.net",
+  "guerrillamail.org",
+  "guerrillamail.biz",
+  "sharklasers.com",
+  "mailinator.com",
+  "maildrop.cc",
+  "harakirimail.com",
+  "mailnesia.com",
+  "mailcatch.com",
+  "yopmail.com",
+  "trashmail.com",
+  "dispostable.com",
+  "10minutemail.com",
+  "mintemail.com",
+  "armyspy.com",
+  "cuvox.de",
+  "dayrep.com",
+  "einrot.com",
+  "fleckens.hu",
+  "gustr.com",
+  "jourrapide.com",
+  "rhyta.com",
+  "superrito.com",
+  "teleworm.us",
+  "throw-away.email",
+  "temporary-mail.net",
+  "tempail.com",
+  "getnada.com",
+  "moakt.com",
+  "mohmal.com",
+  "mohmal.im",
+  "emailfake.com",
+  "emailondeck.com",
+];
 export const projects = [
   {
     title: "TitanFall 2 +NORTHSTAR",
@@ -73,47 +114,6 @@ export const projects = [
   },
 ];
 
-export const tempEmailDomains = [
-  "tempmail.com",
-  "temp-mail.org",
-  "tempm.com",
-  "tempmail.net",
-  "tmpmail.org",
-  "guerrillamail.com",
-  "guerrillamail.net",
-  "guerrillamail.org",
-  "guerrillamail.biz",
-  "sharklasers.com",
-  "mailinator.com",
-  "maildrop.cc",
-  "harakirimail.com",
-  "mailnesia.com",
-  "mailcatch.com",
-  "yopmail.com",
-  "trashmail.com",
-  "dispostable.com",
-  "10minutemail.com",
-  "mintemail.com",
-  "armyspy.com",
-  "cuvox.de",
-  "dayrep.com",
-  "einrot.com",
-  "fleckens.hu",
-  "gustr.com",
-  "jourrapide.com",
-  "rhyta.com",
-  "superrito.com",
-  "teleworm.us",
-  "throw-away.email",
-  "temporary-mail.net",
-  "tempail.com",
-  "getnada.com",
-  "moakt.com",
-  "mohmal.com",
-  "mohmal.im",
-  "emailfake.com",
-  "emailondeck.com",
-];
 
 export const GithubSVG = () => (
   <svg viewBox="0 0 438.549 438.549" className="size-4" height="23" width="23">
@@ -139,20 +139,6 @@ export const LinkedinSVG = () => (
   </svg>
 );
 
-export const XSVG = () => (
-  <svg
-    className="size-4"
-    height="23"
-    width="23"
-    viewBox="0 0 1200 1227"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      fill="currentColor"
-      d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"
-    ></path>
-  </svg>
-);
 
 export const socialLinks = [
   {

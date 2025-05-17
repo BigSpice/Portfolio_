@@ -7,6 +7,7 @@ import "./globals.css";
 import "./edit.css";
 import "./new.css";
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Geist_Mono({ subsets: ["latin"], preload: true });
 
@@ -71,6 +72,9 @@ export default function RootLayout({
           <Navbar />
           {children}
         </ThemeProvider>
+          <Analytics />
+          <SpeedInsights />
+
       </body>
     </html>
   );
