@@ -55,7 +55,7 @@ const experiences: Experience[] = [
     title: "Lab Research Engineer - Stroke and Recovery",
     company: "University of Ottawa",
     companyUrl: "https://www.uottawa.ca/research-innovation/brain/research/stroke",
-    period: "12/2023 – present",
+    period: "12/2023 – 05/2025",
     description:
       "Ottawa, Canada",
     achievements: [
@@ -85,7 +85,7 @@ const experiences: Experience[] = [
     title: "Field Technician",
     company: "IBM",
     companyUrl: "https://www.ibm.com",
-    period: "11/2022 – 08/2023",
+    period: "11/2022 – 10/2023",
     description:
       "Ottawa, Canada",
     achievements: [
@@ -110,7 +110,7 @@ const experiences: Experience[] = [
     title: "Hardware characterization",
     company: "Ciena",
     companyUrl: "https://www.ciena.com/",
-    period: "12/2023 – present",
+    period: "09/2021 – 03/2022",
     description:
       "Ottawa, Canada",
     achievements: [
