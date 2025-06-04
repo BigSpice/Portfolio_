@@ -146,10 +146,6 @@ export const socialLinks = [
     href: "https://github.com/BigSpice",
     icon: <GithubSVG />,
   },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/jordan-k-m/",
-    icon: <LinkedinSVG />,
-  },
+
 
 ];

@@ -314,7 +314,7 @@ export default function ContactSection() {
                 {/* Decorative corner elements */}
                 {/* <div className="absolute -bottom-3 -left-3 w-12 h-12 md:w-16 md:h-16 border-l-2 border-b-2 border-neutral-400 opacity-40" /> */}
                 <div className="absolute -top-3 -right-3 w-12 h-12 md:w-16 md:h-16 border-r-2 border-t-2 border-neutral-400 opacity-40" />
-                    <p className="margin-t text-sm text-xs">© {new Date().getFullYear()} Jordan Kaweesa. All Rights Reserved.</p>
+                    <p className="margin-t text-sm text-xs">© {new Date().getFullYear()} Created and maintained by Jordan Kaweesa. All Rights Reserved.</p>
 
               </div>
 

@@ -32,7 +32,7 @@ const experiences: Experience[] = [
     achievements: [
       "Managed cloud software services and service panels for clients, handling deployment, configuration, and maintenance on AWS and Azure.",
       "Tested, reviewed, and troubleshot installed systems to ensure functionality and reliability",
-   "Installed, dressed, and terminated UTP, CAT5-6, supporting bandwidths up to 10Gbps",
+   "Installed, dressed, and terminated UTP, CAT5-6, supporting bandwidths of 10-100 Gbps",
    "Performed maintenance and troubleshooting of medical apparatus, for elderly homes and hospitals.",
    
     ],
@@ -61,7 +61,7 @@ const experiences: Experience[] = [
     achievements: [
       "Developed and enhanced test apparatus for stroke and rehabilitation research",
       "Programmed and integrated Arduino and Raspberry Pi systems for automated testing and data collection, with extensive use of GPIO, SPI for embedded systems design",
-      "Utilized Python, Ruby, and C to develop automation and AI-driven solutions in the Deeplab suite and tools.",
+      "Utilized Python, Ruby, and C to develop automation and AI-driven solutions in the DeepLab suite and tools.",
       "Created and trained custom AI models using NumPy and MATLAB for advanced data analysis",
       "Leveraged NVIDIA hardware for AI-driven video analysis and automated report generation",
     ],
@@ -114,9 +114,9 @@ const experiences: Experience[] = [
     description:
       "Ottawa, Canada",
     achievements: [
-      "Developed and enhanced the automation framework by implementing new features using C#, Python,Ruby and Java, improving test coverage.",
-      "Redesigned encryption for custom scripts to enhance security and improve hash verification reliability (SHA-3,BLAKE-3) .",
-      "Created custom drivers and iterfaces using QNX for closed source modification.", 
+      "Developed and enhanced the automation framework by implementing new features using C#, Python and Java, improving test coverage.",
+      "Created improved encryption for custom scripts to enhance security and improve hash verification reliability (SHA-3,BLAKE-3) .",
+      "Created custom drivers and interfaces using QNX for closed source modification.", 
       "Designed and implemented a new Test Automation Suite to a modern Java UI custom created for the new system.",
       "Refactored and optimized existing testing software methods using Visual Studio C#, Python and Ruby.",
      
@@ -137,7 +137,7 @@ const experiences: Experience[] = [
     isCurrent: false,
   },
   {
-    title: "Research Assistanty",
+    title: "Research Assistant",
     company: "University of Ottawa",
     companyUrl: "https://www.uottawa.ca/research-innovation/brain/research/stroke",
     period: "05/2021 – 09/2021",

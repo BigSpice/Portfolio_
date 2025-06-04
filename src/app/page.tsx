@@ -17,6 +17,7 @@ export default function Page() {
   return (
 
     <main className="relative overflow-hidden">
+
       <div className=" bg bg_fill dark:bg_fill"></div>
 
  
