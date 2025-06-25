@@ -14,9 +14,9 @@ const inter = Geist_Mono({ subsets: ["latin"], preload: true });
 export const metadata: Metadata = {
   title: "Jordan Kaweesa | Portfolio",
   description:
-    "Automation Engineer",
+    "Automation Developer",
   keywords: [
-    "Automation Engineer",
+    "Automation Developer",
     "Web Development Projects",
     "Modern Web Technologies",
   ],

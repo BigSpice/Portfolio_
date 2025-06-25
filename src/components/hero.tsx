@@ -164,7 +164,7 @@ const HeroSection = () => {
               >
                 <div className="relative inline-block">
                   <span className="text-xl md:text-2xl text-neutral-700 dark:text-neutral-300 font-light tracking-wide">
-                  Automation Engineer
+                  Automation Developer
                   </span>
                   <motion.div
                     initial={{ scaleX: 0 }}
@@ -178,7 +178,7 @@ const HeroSection = () => {
               {/* Description with staggered line reveal and improved typography */}
               <div className="max-w-2xl mb-16 overflow-hidden">
                 {[
-                  "An Automation Engineer with a long background in Computer Systems",
+                  "An Automation Developer with a long background in Computer Systems",
                   "Specialized in unique, out of the box top down solutions with attention to detail.",
                 ].map((line, i) => (
                   <div key={i} className="overflow-hidden">
