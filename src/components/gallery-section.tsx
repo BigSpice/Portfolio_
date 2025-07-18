@@ -124,6 +124,13 @@ const GallerySection = () => {
             <h2 className="text-5xl md:text-7xl font-light tracking-tighter mb-8">
               <span className="block">Gallery</span>
             </h2>
+                        <h4 className="text-2md md:text-1xl font-light tracking-tighter mb-8">
+                          <a href="https://t612.space" className="block">Click me to go to the</a><span style={{ textDecoration: "underline" }}><strong>T612</strong> <span>gallery</span>  </span>
+                          
+                            
+                        
+                        </h4>
+
             <p className="text-base max-w-lg text-neutral-600 dark:text-neutral-400">
            A Selection of Images I’ve created, from real life, to rendered space.
             </p>
