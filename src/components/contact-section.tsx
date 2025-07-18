@@ -181,7 +181,7 @@ export default function ContactSection() {
                 isDark ? "text-neutral-400" : "text-neutral-600"
               }`}
             >
-              Whether you're looking for expert services or exploring a business collaboration, I'm ready to connect.
+              I'm always open to new opportunities and collaborations. Whether you have a project in mind, need assistance, or just want to say hello, feel free to reach out!
               </p>
           </motion.div>
         </div>
