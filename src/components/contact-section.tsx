@@ -181,8 +181,8 @@ export default function ContactSection() {
                 isDark ? "text-neutral-400" : "text-neutral-600"
               }`}
             >
-              Let's discuss!.
-            </p>
+              Whether you're looking for expert services or exploring a business collaboration, I'm ready to connect.
+              </p>
           </motion.div>
         </div>
 
