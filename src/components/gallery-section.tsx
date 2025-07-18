@@ -125,7 +125,7 @@ const GallerySection = () => {
               <span className="block">Gallery</span>
             </h2>
                         <h4 className="text-2md md:text-1xl font-light tracking-tighter mb-8">
-                          <a href="https://t612.space" className="block">Click me to go to the</a><span style={{ textDecoration: "underline" }}><strong>T612</strong> <span>gallery</span>  </span>
+                          <span className="block">Click me to go to the</span><a   href="https://t612.space" style={{ textDecoration: "underline" }}><strong>T612</strong></a> <span>gallery  </span>
                           
                             
                         
