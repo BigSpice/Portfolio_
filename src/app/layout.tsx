@@ -14,11 +14,10 @@ const inter = Geist_Mono({ subsets: ["latin"], preload: true });
 export const metadata: Metadata = {
   title: "Jordan Kaweesa | Portfolio",
   description:
-    "Automation Developer",
+    "Developer",
   keywords: [
-    "Automation Developer",
-    "Web Development Projects",
-    "Modern Web Technologies",
+    "Developer",
+    "Hardware Specialist",
   ],
   authors: [{ name: "Jordan Kaweesa", url: "https://" }],
   openGraph: {

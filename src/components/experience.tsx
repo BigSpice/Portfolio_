@@ -26,30 +26,27 @@ const experiences: Experience[] = [
     title: "Technical Implementation Specialist",
     company: "BFG Enterprise Services",
     companyUrl: "https://bfg.ca/",
-    period: "03/2023 – present",
+    period: "03/2023 – 08/2025",
     description:
       "Technical deployment and support of our software solutions.",
     achievements: [
-      "Managed cloud software services and service panels for clients, handling deployment, configuration, and maintenance on AWS and Azure.",
-      "Tested, reviewed, and troubleshot installed systems to ensure functionality and reliability",
-   "Installed, dressed, and terminated UTP, CAT5-6, supporting bandwidths of 10-100 Gbps",
-   "Performed maintenance and troubleshooting of medical apparatus, for elderly homes and hospitals.",
-   
+      "Managed full lifecycle deployment, configuration, and maintenance of store cloud software services and client service panels as required by standards.",
+"Configured and staged certified site hardware, consistently meeting client and company requirements using technical specifications within scheduled deployment windows.",
+"Performed maintenance and troubleshooting of senstive scale, server and network hardware.",
+"Tested, reviewed, and troubleshot installed systems to ensure functionality and reliability.",
+"Maintained reliable network infrastructure by installing, dressing, and terminating UTP, CAT5e, and CAT6 cabling, supporting critical bandwidths up to +(40/N)Gbps.",
+
     ],
     skills: [
-      "STM32",
       "Java",
-      "AWS",
       "Networking",
       "VxWorks",
-      "WireShark",
-      "Windows Diag",
       "NCR Systems",
       "NAIC Components",
-      "PLC Programming",     
+      "PLC Programming",
     ],
     color: "#10B981", // emerald
-    isCurrent: true,
+    isCurrent: false,
   },
   {
     title: "Lab Research Engineer - Stroke and Recovery",
@@ -59,28 +56,21 @@ const experiences: Experience[] = [
     description:
       "Ottawa, Canada",
     achievements: [
-      "Developed and enhanced test apparatus for stroke and rehabilitation research",
-      "Programmed and integrated Arduino and Raspberry Pi systems for automated testing and data collection, with extensive use of GPIO, SPI for embedded systems design",
-      "Utilized Python, Ruby, and C to develop automation and AI-driven solutions in the DeepLab suite and tools.",
-      "Created and trained custom AI models using NumPy and MATLAB for advanced data analysis",
-      "Leveraged NVIDIA hardware for AI-driven video analysis and automated report generation",
+      "Was given the lead development and optimization of a specialized test apparatuses for stroke and rehabilitation research, to improve experimental throughput and data collection options for future 3d reconstruction in DEEP Lab Cut.",
+"Designed and 3D printed custom automation cages using Blender and Autocad software to create new and reliable testing environments.",
+"Engineered embedded automation systems utilizing Arduino and Raspberry Pi 3, 4, 5 , integrating new GPIO and SPI comm interfaces for reliable and readable control with automated data capture.",
+"Implemented I2C and PCMSC protocols for seamless bidirectional data transfer on very senstive readout instrument's.",
+"Built and tested possible AI models with NumPy and MATLAB, to prototype advanced data analysis and extracting critical insights from vidfeo and harware data.",
+"Utilized NVIDIA Jetson hardware to accelerate AI powered video analysis and test faster capture at 250+ FPS for test use.",
     ],
     skills: [
-      "NVIDIA Jetson",
-      "Fusion360",
-      "Python",
       "C",
       "TensorFlow",
-      "Arduino",
-      "Raspberry Pi",
-      "OpenCV",
-      "Matlab",
-      "NumPy",
-      
     ],
     color: "#EC6241", 
     isCurrent: false,
   },
+ 
   {
     title: "Field Technician",
     company: "IBM",
@@ -89,19 +79,15 @@ const experiences: Experience[] = [
     description:
       "Ottawa, Canada",
     achievements: [
-      "Managed the installation, configuration, and maintenance of hardware/software systems, including servers, desktops, laptops, and printers.",
-    "Diagnosed and resolved complex technical issues, providing timely user support.",
-    "Implemented system updates, security patches, and performance optimizations, enhancing overall system stability and reducing vulnerabilities.",
+     "Managed the installation, configuration, and maintenance of hardware/software systems, including servers, desktops, laptops, and printers.",
+"Diagnosed and resolved complex technical issues, providing timely user support.",
+"Implemented onsite emergency system updates, security patches, and performance optimizations, enhancing overall system stability and reducing vulnerabilities.",
     
     
     
     ],
     skills: [
-      "AWS",
       "Linux",
-      "Windows",
-      "Networking",
-
     ],
     color: "#052e62", // blue
     isCurrent: false,
@@ -114,25 +100,17 @@ const experiences: Experience[] = [
     description:
       "Ottawa, Canada",
     achievements: [
-      "Developed and enhanced the automation framework by implementing new features using C#, Python and Java, improving test coverage.",
-      "Created improved encryption for custom scripts to enhance security and improve hash verification reliability (SHA-3,BLAKE-3) .",
-      "Created custom drivers and interfaces using QNX for closed source modification.", 
-      "Designed and implemented a new Test Automation Suite to a modern Java UI custom created for the new system.",
-      "Refactored and optimized existing testing software methods using Visual Studio C#, Python and Ruby.",
+     "Developed and enhanced the current automation framework by implementing new features using, C# backend, Python bridging and a Java web front end, improving test coverage and configuration management times by hours.",
+"Strengthened security and data integrity by creating better encryption for custom scripts to meet new secure file system standards in house.",
+"Engineered custom drivers and interfaces using Intel x86 assembly interfaces within QNX to enable specialized modifications for test chambers.",
+"Spearheaded the design and implementation of a modern Test Automation Suite, integrating it with a custom built Java UI and python back end, for a reduction of hours to days on testing control and readouts.",
+"Created new network bridges using c86 for minimum serial delay. Protocol used was a mix of low level TX jtag and RX SPI on the recievers.",
      
     ],
     skills: [
-      "Server Admin",
-      "Visual Basic",
-      "Python",
       "C#",
-      "Ruby",
       "Java",
-      "Hardware Design",
-      "Circut Electronics",
-      "Test Automation",
-      "QNX",
-    ],
+        ],
     color: "#8E0C1D",
     isCurrent: false,
   },
@@ -144,23 +122,17 @@ const experiences: Experience[] = [
     description:
       "Ottawa, Canada",
     achievements: [
-      "Developed and optimized an automated testing environment for stroke research and treatment in collaboration with a research team.",
-      "Designed and implemented Python scripts to automate testing procedures, ensuring efficiency and safety.",
-      "Enhanced the testing environment using CAD and software to optimize conditions and procedures.",
-      "Utilized NVIDIA Jetson, Arduino, OpenCV, and socket applications for real-time tracking and recognition of test elements.",
-      "Implemented real-time data collection methods to analyze test results and drive improvements.",
-      "Provided technical support, troubleshooting issues, and maintaining up-to-date documentation for future enhancements.",
+     "Developed and optimized an automated 3d printed testing environment for stroke research and treatment in collaboration with a research team.",
+"Designed and implemented new Python scripts to automate testing procedures, ensuring efficiency and safety.",
+"Improved the testing environment using CAD designs and 3d prints to optimize conditions and reliability.",
+"Utilized NVIDIA Jetson, Arduino and OpenCV for real-time tracking and recognition of test elements and limbs.",
+"Implemented real-time data collection methods to analyze test results at video FPS of 100+",
+"Provided technical support, troubleshooting issues, and maintaining up-to-date documentation for future enhancements of the project.",
      
    
     ],
     skills: [
-      "NVIDIA Jetson",
-      "Raspberry Pi",
-      "Arduino",
-      "Autocad",
-      "C",
       "OpenCV",
-      "Python",
       "TensorFlow",
     ],
     color: "#EC6241", 
@@ -182,12 +154,7 @@ const experiences: Experience[] = [
     
     ],
     skills: [
-      "Embedded Hardware",
-      "QNX",
-      "Python",
-      "C++",
       "IDA",
-      "DOT Peek",
       "Visual Basic",
       "Assembly",
     ],

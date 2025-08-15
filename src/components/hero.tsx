@@ -178,7 +178,7 @@ const HeroSection = () => {
               {/* Description with staggered line reveal and improved typography */}
               <div className="max-w-2xl mb-16 overflow-hidden">
                 {[
-                  "An Automation Developer with a long background in Computer Systems",
+                  "A Developer with a long background in Computer Systems",
                   "Specialized in unique, out of the box top down solutions with attention to detail.",
                 ].map((line, i) => (
                   <div key={i} className="overflow-hidden">
