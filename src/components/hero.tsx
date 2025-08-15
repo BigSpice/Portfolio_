@@ -164,7 +164,7 @@ const HeroSection = () => {
               >
                 <div className="relative inline-block">
                   <span className="text-xl md:text-2xl text-neutral-700 dark:text-neutral-300 font-light tracking-wide">
-                  Automation Developer
+                  Developer
                   </span>
                   <motion.div
                     initial={{ scaleX: 0 }}
