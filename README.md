@@ -2,7 +2,7 @@
 Hello🧙🏼. Welcome and Thank you for visting!.
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“In a software project team of 10, there are probably 3 people who produce enough defects to make them net negative producers.”— Gordon Schulmeyer   ❞</i>
+<i>❝The US Federal Register is still using floppy disks sent by courier because a secure e-mail system is “too expensive”.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
