@@ -2,7 +2,7 @@
 Hello🧙🏼. Welcome and Thank you for visting!.
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“The difference between theory and practice is that in theory, there is no difference between theory and practice.”— Richard Moore   ❞</i>
+<i>❝“Imagination is more important than knowledge.  For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution.”— Albert Einstein   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
